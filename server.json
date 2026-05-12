@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BrightSiteHQ/brightsite",
+  "title": "BrightSite",
+  "description": "Manage BrightSite websites: pages, blog posts, components, forms, media, and analytics.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BrightSiteHQ/brightsite-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://onbrightsite.com/api/mcp"
+    }
+  ]
+}
